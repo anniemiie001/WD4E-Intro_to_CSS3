@@ -8,14 +8,14 @@ header {
   color: #ffffff;
 }
 
-/* Bước 4: nav dùng inline-block, width ~80% */
+/* Yêu cầu 4: nav dùng inline-block, width khoảng 80% */
 nav {
   display: inline-block;
   width: 80%;
   background-color: #2c5282;
 }
 
-/* Bước 5: chỉ ảnh trong nav rộng ~10% */
+/* Yêu cầu 5: descendent selector - chỉ ảnh trong nav rộng khoảng 10% */
 nav img {
   width: 10%;
 }
@@ -31,7 +31,7 @@ footer {
   color: #ffffff;
 }
 
-/* Bước 3: comment styling cũ của li */
+/* Yêu cầu 3: comment styling cũ của li */
 /*
 li {
   display: inline-block;
@@ -59,7 +59,7 @@ footer a {
   color: #ffffff;
 }
 
-/* Bước 6 & 8: 2 cột ~40%, chỉnh justify-content, align-items, row-gap */
+/* Yêu cầu 6 & 8: 2 cột khoảng 40%, chỉnh justify-content, align-items, row-gap */
 .grid {
   display: grid;
   grid-template-columns: 40% 40%;
@@ -68,12 +68,12 @@ footer a {
   row-gap: 20px;
 }
 
-/* Bước 7: chỉ ảnh trong .grid rộng 100%, không đụng tới .flex */
+/* Yêu cầu 7: descendent selector - chỉ ảnh trong .grid rộng 100% */
 .grid img {
   width: 100%;
 }
 
-/* Bước 9: flex, flex-wrap, justify-content */
+/* Yêu cầu 9: dùng flex, flex-wrap và justify-content */
 .flex {
   display: flex;
   flex-wrap: wrap;
