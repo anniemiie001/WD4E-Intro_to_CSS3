@@ -3,6 +3,13 @@ body {
   font-size: 16px;
 }
 
+.skip-link {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #1b365d;
+  color: #ffffff;
+}
+
 header {
   background-color: #1b365d;
   color: #ffffff;
@@ -28,7 +35,6 @@ footer {
   background-color: #1b365d;
   color: #ffffff;
 }
-
 
 /*
 li {
@@ -68,7 +74,6 @@ footer a {
 .grid img {
   width: 100%;
 }
-
 
 .flex {
   display: flex;
